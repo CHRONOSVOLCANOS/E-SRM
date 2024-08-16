@@ -10,6 +10,7 @@ This .zip file contains the data and MATLAB codes for the E-SRM,
   LAST UPDATED: 08/16/2024
 
 Contents:
+
   Input_data - This folder contains all the input data used by Ninad Bhagwat to develop
     and run the E-SRM. Some data is raw, while some is pre-processed to some extent.
 
@@ -20,6 +21,7 @@ Contents:
     verify that the codes are working, and results are recreatable.
 
 Instructions:
+
 	1. To obtain hypsometric elevation of each zone in a watershed, along with 
 	  area and fractional area of each zone, use 'Step_1_hypsometric_elevation_finder.m'.
 	2. To obtain the fractional snow cover area for each zone from the 8-day
