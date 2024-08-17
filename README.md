@@ -3,19 +3,27 @@ Raw data and MATLAB codes for the Expanded Snowmelt Runoff Model (E-SRM)
 
 If using this, please cite: N/A @ 08/16/2024
 
-This .zip file contains the data and MATLAB codes for the E-SRM,
+These files contain the data and MATLAB codes for the E-SRM,
   developed by Ninad Bhagwat (PhD student at Montana Technological University)
+  under the supervision of Dr. Xiaobing Zhou (Professor at Montana Technological University).
+  
   LAST UPDATED: 08/16/2024
 
 Contents:
 
-  Input_data - This folder contains all the input data used by Ninad Bhagwat to develop
-    and run the E-SRM. Some data is raw, while some is pre-processed to some extent.
+  Input_data_E-SRM_input - This .zip file contains the input data required for E-SRM simulation.
+  This .xip file contains two folders: Canyon Ferry and Morony. Each folder name is specific for that watershed.
+
+  Input_data_Pre_processing_CF - This .zip file contains the DEM of Canyon Ferry watershed, and weather station,
+  streamflow and snow cover data for the watershed.
+
+  Input_data_Pre_processing_Morony - This .xip file contains the DEM of the Morony watershed, and weather station,
+  streamflow and snow cover data for the watershed.
 
   MATLAB - This folder contains all the MATLAB codes (last updated on 08/16/2024) to pre-process
     some data and use the E-SRM model.
 
-  Output_for_verification - This folder contains all the outputs from MATLAB codes. Just to
+  Output_for_verification - This folder contains all the outputs from MATLAB codes, just to
     verify that the codes are working, and results are recreatable.
 
 Instructions:
