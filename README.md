@@ -1,8 +1,6 @@
 # E-SRM
 Raw data and MATLAB codes for the Expanded Snowmelt Runoff Model (E-SRM)
 
-Expanded Snowmelt Runoff Model (E-SRM)
-
 If using this, please cite: N/A @ 08/16/2024
 
 This .zip file contains the data and MATLAB codes for the E-SRM,
