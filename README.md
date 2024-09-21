@@ -7,15 +7,16 @@ This repository contains the data and MATLAB codes for the Expanded SRM (E-SRM),
   LAST UPDATED: 09/21/2024
 
 Contents:
-  Input_data - This folder contains all the input data used by Ninad Bhagwat to develop
-    and run the E-SRM. Some data is raw, while some is pre-processed to some extent.
+  Input_Canyon_Ferry_Steps_1_2 - Contains the input data for Canyon Ferry watershed to run Steps 1 and 2.
 
-  MATLAB_Steps_1_2 - This folder contains all the MATLAB codes (last updated on 09/21/2021) to pre-process
-    some data (Steps 1 and 2).
+  Input_Morony_Steps_1_2 - Contains the input data for Morony watershed to run steps 1 and 2.
 
-  Scenario_1, Scenario_2, Scenario_3 - I also have 3 scenario folders (Scenario 1, 2, 3). Each 
-    folder has respective code and output for verification. The instructions for each scenario
-    are provided in a NOTEPAD file. The input for all scenarios is same and is provided 
+  Input_Steps_3_4_each_scenario - Contains all the input data for Canyon Ferry and Morony watersheds to run the E-SRM. (E-SRM has many scenarios, see 'Scenarios' folder).
+
+  Steps_1_2_code_output - Contains the MATLAB codes (last updated on 09/21/2021) to run Steps 1 and 2, and the outputs from these codes.
+
+  Scenarios - I have 3 scenario folders (Scenario 1, 2, 3). Each folder has respective code and output for verification. 
+    The instructions for each scenario are provided in a NOTEPAD file. The input for all scenarios is same and is provided 
     in 'Input_data folder'.
 
 Instructions:
