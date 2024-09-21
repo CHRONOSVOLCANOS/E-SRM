@@ -1,42 +1,31 @@
-# E-SRM
-Raw data and MATLAB codes for the Expanded Snowmelt Runoff Model (E-SRM)
+Expanded Snowmelt Runoff Model (E-SRM)
 
-If using this, please cite: N/A @ 08/16/2024
+If using this, please cite: N/A @ 09/21/2024
 
-These files contain the data and MATLAB codes for the E-SRM,
+This repository contains the data and MATLAB codes for the Expanded SRM (E-SRM),
   developed by Ninad Bhagwat (PhD student at Montana Technological University)
-  under the supervision of Dr. Xiaobing Zhou (Professor at Montana Technological University).
-  
-  LAST UPDATED: 08/16/2024
+  LAST UPDATED: 09/21/2024
 
 Contents:
+  Input_data - This folder contains all the input data used by Ninad Bhagwat to develop
+    and run the E-SRM. Some data is raw, while some is pre-processed to some extent.
 
-  Input_data_E-SRM_input - This .zip file contains the input data required for E-SRM simulation.
-  This .xip file contains two folders: Canyon Ferry and Morony. Each folder name is specific for that watershed.
+  MATLAB_Steps_1_2 - This folder contains all the MATLAB codes (last updated on 09/21/2021) to pre-process
+    some data (Steps 1 and 2).
 
-  Input_data_Pre_processing_CF - This .zip file contains the DEM of Canyon Ferry watershed, and weather station,
-  streamflow and snow cover data for the watershed.
-
-  Input_data_Pre_processing_Morony - This .xip file contains the DEM of the Morony watershed, and weather station,
-  streamflow and snow cover data for the watershed.
-
-  MATLAB - This folder contains all the MATLAB codes (last updated on 08/16/2024) to pre-process
-    some data and use the E-SRM model.
-
-  Output_for_verification - This folder contains all the outputs from MATLAB codes, just to
-    verify that the codes are working, and results are recreatable.
+  Scenario_1, Scenario_2, Scenario_3 - I also have 3 scenario folders (Scenario 1, 2, 3). Each 
+    folder has respective code and output for verification. The instructions for each scenario
+    are provided in a NOTEPAD file. The input for all scenarios is same and is provided 
+    in 'Input_data folder'.
 
 Instructions:
-
 	1. To obtain hypsometric elevation of each zone in a watershed, along with 
 	  area and fractional area of each zone, use 'Step_1_hypsometric_elevation_finder.m'.
 	2. To obtain the fractional snow cover area for each zone from the 8-day
 	  MODIS snow cover images (MOD10A2), use 'Step_2_MODIS_batch_process_8day_snowcover.m'.
-	3. To calibrate the E-SRM, use 'Step_3_E_SRM_batch_calibration.m'.
-	4. To validate the E-SRM, use 'Step_4_E_SRM_batch_validation.m'.
+	3. Steps 3 and 4 have multiple scenarios. Each scenario is accompined with its own MATLAB
+	   code and NOTEPAD instructions. Follow the instructions from the NOTEPAD.
 
-IMP: Integration between steps 3 and 4 is in progress.
-
-Each MATLAB code has detail instructions on how to use it.
+ALL THE RESULTS WERE RECREATABLE AS OF 09/02/2021.
 
 Contact: Ninad Bhagwat (nbhagwat@mtech.edu)
