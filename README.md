@@ -1,32 +1,20 @@
 Expanded Snowmelt Runoff Model (E-SRM)
 
-If using this, please cite: N/A @ 09/21/2024
+If using this, please cite: N/A @ 10/11/2024
 
 This repository contains the data and MATLAB codes for the Expanded SRM (E-SRM),
   developed by Ninad Bhagwat (PhD student at Montana Technological University)
   LAST UPDATED: 09/21/2024
 
 Contents:
-  Input_Canyon_Ferry_Steps_1_2 - Contains the input data for Canyon Ferry watershed to run Steps 1 and 2.
 
-  Input_Morony_Steps_1_2 - Contains the input data for Morony watershed to run steps 1 and 2.
+  - E-SRM_data_and_codes.zip - This file contains all the data and codes to generate the figures in the manuscript.
+    
+  - Curretly, I have used the structure is such a way to ensure a smooth review process. Therefore, this folder is organized per figure.
+  - MATLAB R2019a codes are only used for figures 7 and 8. Each MATLAB code has detailed instructions for reviewers 'INSTRUCTIONS FOR REVIEWERS'.
+    
+  - I have not included Step_1 and Step_2 codes, as they were not directly used to generate the data for figures. I am happy to provide them if needed.
 
-  Input_Steps_3_4_each_scenario - Contains all the input data for Canyon Ferry and Morony watersheds to run the E-SRM. (E-SRM has many scenarios, see 'Scenarios' folder).
-
-  Steps_1_2_code_output - Contains the MATLAB codes (last updated on 09/21/2021) to run Steps 1 and 2, and the outputs from these codes.
-
-  Scenarios - I have 3 scenario folders (Scenario 1, 2, 3). Each folder has respective code and output for verification. 
-    The instructions for each scenario are provided in a NOTEPAD file. The input for all scenarios is same and is provided 
-    in 'Input_data folder'.
-
-Instructions:
-	1. To obtain hypsometric elevation of each zone in a watershed, along with 
-	  area and fractional area of each zone, use 'Step_1_hypsometric_elevation_finder.m'.
-	2. To obtain the fractional snow cover area for each zone from the 8-day
-	  MODIS snow cover images (MOD10A2), use 'Step_2_MODIS_batch_process_8day_snowcover.m'.
-	3. Steps 3 and 4 have multiple scenarios. Each scenario is accompined with its own MATLAB
-	   code and NOTEPAD instructions. Follow the instructions from the NOTEPAD.
-
-ALL THE RESULTS WERE RECREATABLE AS OF 09/02/2021.
+ALL THE RESULTS WERE RECREATABLE AS OF 10/11/2024.
 
 Contact: Ninad Bhagwat (nbhagwat@mtech.edu)
