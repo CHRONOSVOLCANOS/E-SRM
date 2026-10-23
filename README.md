@@ -1,6 +1,16 @@
 Expanded Snowmelt Runoff Model (E-SRM)
 
-If using this, please cite: N/A @ 06/24/2025
+If using this code, please cite: 
+
+Bhagwat N., Zhou X., Nagisetty R., Jiang L., Shaw G., Apple M., Clotfelter J. (2025). Snowmelt Runoff Model (SRM) for Regulated Watersheds with Regulation Correction. Applied Water Science, 15(8), 220. https://doi.org/10.1007/s13201-025-02579-y.
+
+
+
+YOu can also read this paper
+
+Bhagwat N., Kumar R., Qureshi M., Nagisetty R., Zhou X. (2025). The Status, Applications, and Modifications of the Snowmelt Runoff Model (SRM): A Comprehensive Review. Hydrology, 12(6), 156. https://doi.org/10.3390/hydrology12060156.
+
+
 
 This repository contains the data and MATLAB codes for the Expanded SRM (E-SRM),
   developed by Dr. Ninad Bhagwat towards his PhD at Montana Technological University)
